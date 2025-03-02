@@ -856,7 +856,7 @@ var app = (function () {
         add_location(span, file$k, 45, 29, 1966);
         attr_dev(h2, "class", "logo svelte-e42pgh");
         add_location(h2, file$k, 45, 4, 1941);
-        attr_dev(a, "href", "https://mlu-explain.github.io");
+        attr_dev(a, "href", "");
         attr_dev(a, "class", "svelte-e42pgh");
         add_location(a, file$k, 6, 2, 153);
         attr_dev(div, "id", "intro-icon");
@@ -1034,20 +1034,19 @@ var app = (function () {
         h10.textContent = "Linear Regression";
         t1 = space();
         h11 = element("h1");
-        h11.textContent =
-          "A Visual Introduction To (Almost) Everything You Should Know";
+        h11.textContent = "Dasar-Dasar Linear Regression";
         t3 = space();
         h3 = element("h3");
         a = element("a");
         a.textContent = "Deden Istiawan";
-        t5 = text(", September 2022");
+        t5 = text(", Januari 2025");
         attr_dev(h10, "id", "intro-hed");
         attr_dev(h10, "class", "svelte-jxg5a1");
         add_location(h10, file$j, 1, 2, 23);
         attr_dev(h11, "id", "intro-sub");
         attr_dev(h11, "class", "svelte-jxg5a1");
         add_location(h11, file$j, 2, 2, 67);
-        attr_dev(a, "href", "https://twitter.com/jdwlbr");
+        attr_dev(a, "href", "https://twitter.com/dedenistiawan");
         add_location(a, file$j, 6, 4, 188);
         attr_dev(h3, "id", "intro__date");
         attr_dev(h3, "class", "svelte-jxg5a1");
@@ -12558,7 +12557,7 @@ var app = (function () {
               if (font === "Size1-Regular") {
                 sizeClass = "delim-size1";
               } else {
-              /* if (font === "Size4-Regular") */
+                /* if (font === "Size4-Regular") */
                 sizeClass = "delim-size4";
               }
 
@@ -13296,7 +13295,7 @@ var app = (function () {
                   classes
                 );
               } else {
-              /* if (delimType.type === "stack") */
+                /* if (delimType.type === "stack") */
                 return delimiter_makeStackedDelim(
                   delim,
                   height,
@@ -23256,33 +23255,33 @@ var app = (function () {
         section = element("section");
         p0 = element("p");
         p0.textContent =
-          "Linear Regression is a simple and powerful model for predicting a numeric\n    response from a set of one or more independent variables. This article will\n    focus mostly on how the method is used in machine learning, so we won't\n    cover common use cases like causal inference or experimental design. And\n    although it may seem like linear regression is overlooked in modern machine\n    learning's ever-increasing world of complex neural network architectures,\n    the algorithm is still widely used across a large number of domains because\n    it is effective, easy to interpret, and easy to extend. The key ideas in\n    linear regression are recycled everywhere, so understanding the algorithm is\n    a must-have for a strong foundation in machine learning.";
+          "Regresi linear adalah model sederhana namun efektif yang digunakan untuk memprediksi nilai numerik berdasarkan satu atau lebih variabel input.\n    Dalam machine learning, regresi linear sering digunakan untuk memahami hubungan antara variabel dan membuat prediksi.\n    Artikel ini akan fokus pada penerapan regresi linear dalam machine learning, tanpa membahas analisis kausal atau desain eksperimen.\n    Meskipun model machine learning modern banyak menggunakan arsitektur kompleks seperti jaringan saraf, regresi linear tetap populer\n    karena mudah dipahami, cepat dihitung, dan dapat dikembangkan lebih lanjut.\n    Konsep yang digunakan dalam regresi linear juga banyak diterapkan dalam model machine learning lainnya,\n    sehingga memahami algoritma ini penting untuk membangun dasar yang kuat dalam analisis data dan pengembangan sistem cerdas.";
         t1 = space();
         br0 = element("br");
         t2 = space();
         p1 = element("p");
         span0 = element("span");
-        span0.textContent = "Let's Be More Specific";
+        span0.textContent = "Dasar Linear Regression";
         t4 = space();
         br1 = element("br");
-        t5 = text("\n    Linear regression is a supervised algorithm");
+        t5 = text("\n    Linear regression adalah algoritma Supervised");
         sup0 = element("sup");
         span1 = element("span");
         span1.textContent = "[ℹ]";
-        t7 = text("\n    that learns to model a dependent variable, ");
+        t7 = text("\n    yang belajar memodelkan variabel dependen, ");
         html_tag = new HtmlTag(false);
         t8 = text(
-          ', as\n    a function of some independent variables (aka "features"), '
+          ', sebagai\n   fungsi dari beberapa variabel independen (aka "fitur"), '
         );
         html_tag_1 = new HtmlTag(false);
         t9 = text(
-          ', by finding a line (or surface) that best "fits" the data. In general, we\n    assume '
+          ', dengan menemukan garis yang paling "cocok" dengan data. Secara umum, kita\n    berasumsi '
         );
         html_tag_2 = new HtmlTag(false);
-        t10 = text(" to be some number and each\n    ");
+        t10 = text(" sebagai angka dan setiap\n    ");
         html_tag_3 = new HtmlTag(false);
         t11 = text(
-          " can be basically anything. For example: predicting\n    the price of a house using the number of rooms in that house ("
+          " dapat berupa apa saja. Contoh: Prediksi\n    the price of a house using the number of rooms in that house ("
         );
         html_tag_4 = new HtmlTag(false);
         t12 = text(": price, ");
@@ -23381,7 +23380,7 @@ var app = (function () {
         attr_dev(
           span1,
           "title",
-          "Supervised algorithms learn to predict a specific value based on historical data."
+          "Supervised algorithm adalah jenis algoritma machine learning yang belajar dari data berlabel, di mana setiap input memiliki output yang diketahui."
         );
         add_location(span1, file$i, 23, 7, 1063);
         add_location(sup0, file$i, 22, 47, 1051);
